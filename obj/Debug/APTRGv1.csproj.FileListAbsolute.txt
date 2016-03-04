@@ -1,0 +1,9 @@
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\APTRGv1.exe.config
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\APTRGv1.exe
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\APTRGv1.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.csprojResolveAssemblyReference.cache
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.Form1.resources
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.Properties.Resources.resources
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.csproj.GenerateResource.Cache
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.exe
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.pdb
