@@ -21,5 +21,20 @@ namespace APTRGv1
         {
 
         }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void attitudeIndicatorInstrumentControl1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

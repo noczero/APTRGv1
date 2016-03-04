@@ -42,7 +42,15 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.verticalSpeedIndicatorInstrumentControl1 = new APTRGv1.VerticalSpeedIndicatorInstrumentControl();
+            this.airSpeedIndicatorInstrumentControl1 = new APTRGv1.AirSpeedIndicatorInstrumentControl();
+            this.attitudeIndicatorInstrumentControl1 = new APTRGv1.AttitudeIndicatorInstrumentControl();
             this.tabControl1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -121,10 +129,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(218, 17);
+            this.tabControl1.Location = new System.Drawing.Point(208, 17);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(687, 470);
+            this.tabControl1.Size = new System.Drawing.Size(1005, 666);
             this.tabControl1.TabIndex = 8;
             // 
             // tabPage1
@@ -132,17 +140,18 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(679, 444);
+            this.tabPage1.Size = new System.Drawing.Size(997, 640);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Data Interface & Map";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // tabPage2
             // 
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(679, 444);
+            this.tabPage2.Size = new System.Drawing.Size(776, 640);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Graph on Latitude";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -151,7 +160,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(679, 444);
+            this.tabPage3.Size = new System.Drawing.Size(776, 640);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Graph on Time";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -160,25 +169,74 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(679, 444);
+            this.tabPage4.Size = new System.Drawing.Size(776, 640);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "RAW Data";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(9, 167);
+            this.groupBox1.Controls.Add(this.attitudeIndicatorInstrumentControl1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 158);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 316);
+            this.groupBox1.Size = new System.Drawing.Size(180, 170);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Indicator";
+            this.groupBox1.Text = "Attitude";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.airSpeedIndicatorInstrumentControl1);
+            this.groupBox2.Location = new System.Drawing.Point(12, 334);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(180, 170);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Velocity";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.verticalSpeedIndicatorInstrumentControl1);
+            this.groupBox3.Location = new System.Drawing.Point(13, 513);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(179, 170);
+            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Acceleration";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // verticalSpeedIndicatorInstrumentControl1
+            // 
+            this.verticalSpeedIndicatorInstrumentControl1.Location = new System.Drawing.Point(17, 19);
+            this.verticalSpeedIndicatorInstrumentControl1.Name = "verticalSpeedIndicatorInstrumentControl1";
+            this.verticalSpeedIndicatorInstrumentControl1.Size = new System.Drawing.Size(140, 145);
+            this.verticalSpeedIndicatorInstrumentControl1.TabIndex = 0;
+            this.verticalSpeedIndicatorInstrumentControl1.Text = "verticalSpeedIndicatorInstrumentControl1";
+            // 
+            // airSpeedIndicatorInstrumentControl1
+            // 
+            this.airSpeedIndicatorInstrumentControl1.Location = new System.Drawing.Point(18, 19);
+            this.airSpeedIndicatorInstrumentControl1.Name = "airSpeedIndicatorInstrumentControl1";
+            this.airSpeedIndicatorInstrumentControl1.Size = new System.Drawing.Size(140, 145);
+            this.airSpeedIndicatorInstrumentControl1.TabIndex = 0;
+            this.airSpeedIndicatorInstrumentControl1.Text = "airSpeedIndicatorInstrumentControl1";
+            // 
+            // attitudeIndicatorInstrumentControl1
+            // 
+            this.attitudeIndicatorInstrumentControl1.Location = new System.Drawing.Point(18, 19);
+            this.attitudeIndicatorInstrumentControl1.Name = "attitudeIndicatorInstrumentControl1";
+            this.attitudeIndicatorInstrumentControl1.Size = new System.Drawing.Size(140, 145);
+            this.attitudeIndicatorInstrumentControl1.TabIndex = 0;
+            this.attitudeIndicatorInstrumentControl1.Text = "attitudeIndicatorInstrumentControl1";
+            this.attitudeIndicatorInstrumentControl1.Click += new System.EventHandler(this.attitudeIndicatorInstrumentControl1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 499);
+            this.ClientSize = new System.Drawing.Size(1225, 691);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button4);
@@ -193,6 +251,9 @@
             this.Text = "APTRGv1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +274,12 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox1;
+        private AttitudeIndicatorInstrumentControl attitudeIndicatorInstrumentControl1;
+        private AirSpeedIndicatorInstrumentControl airSpeedIndicatorInstrumentControl1;
+        private VerticalSpeedIndicatorInstrumentControl verticalSpeedIndicatorInstrumentControl1;
     }
 }
 

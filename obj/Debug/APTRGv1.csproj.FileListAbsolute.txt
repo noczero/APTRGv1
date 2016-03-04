@@ -7,3 +7,13 @@ C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1
 C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.csproj.GenerateResource.Cache
 C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.exe
 C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.pdb
+D:\CALON ASISTEN\SATRYA\APTRGv1\bin\Debug\APTRGv1.exe.config
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.exe
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.pdb
+D:\CALON ASISTEN\SATRYA\APTRGv1\bin\Debug\APTRGv1.exe
+D:\CALON ASISTEN\SATRYA\APTRGv1\bin\Debug\APTRGv1.pdb
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.csprojResolveAssemblyReference.cache
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.control.Resource1.resources
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.Form1.resources
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.Properties.Resources.resources
+D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.csproj.GenerateResource.Cache
