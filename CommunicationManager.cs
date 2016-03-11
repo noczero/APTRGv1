@@ -295,7 +295,7 @@ namespace SerialCOM
                 //now open the port
                 comPort.Open();
                 //display message
-                DisplayData(MessageType.Normal, "Port opened at " + DateTime.Now + "\n");
+                DisplayData(MessageType.Normal, "\n");
                 //DisplayData(MessageType.Normal, DisplayWindow.Text);
                 //return true
                 return true;

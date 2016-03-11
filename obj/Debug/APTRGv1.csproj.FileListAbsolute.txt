@@ -17,3 +17,23 @@ D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.control.Resource1.resources
 D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.Form1.resources
 D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.Properties.Resources.resources
 D:\CALON ASISTEN\SATRYA\APTRGv1\obj\Debug\APTRGv1.csproj.GenerateResource.Cache
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\obj\Debug\APTRGv1.control.Resource1.resources
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\GMap.NET.Core.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.SceneGraph.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.Serialization.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WinForms.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WPF.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\ZedGraph.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\Apex.dll
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.xml
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.SceneGraph.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.SceneGraph.xml
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.Serialization.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.Serialization.xml
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WinForms.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WinForms.xml
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WPF.pdb
+C:\Users\Zero-Inside\Documents\Visual Studio 2013\Projects\APTRG\APTRGv1\APTRGv1\bin\Debug\SharpGL.WPF.xml

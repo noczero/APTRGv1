@@ -32,6 +32,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\Core\Core\SharpGL.SceneGraph\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\Core\Core\SharpGL.SceneGraph\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.Serialization">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\Core\Core\SharpGL.Serialization\SharpGL.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\Core\Core\SharpGL.WinForms\SharpGL.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WPF">
+      <HintPath>..\..\..\..\..\APTRG\GUI\tool GCS\Core\Core\SharpGL.WPF\SharpGL.WPF.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,6 +63,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\..\..\..\Downloads\ZedGraph\ZedGraph.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommunicationManager.cs" />
